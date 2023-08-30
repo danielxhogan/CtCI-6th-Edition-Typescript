@@ -1,0 +1,22 @@
+{
+    "name": "ctci-6th-edition-typescript",
+    "version": "1.0.0",
+    "description": "Solutions for Cracking the Coding Interview 6th Edition practice problems.",
+    "main": "src/index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/danielxhogan/CtCI-6th-Edition-Typescript.git"
+    },
+    "author": "Daniel Hogan",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/danielxhogan/CtCI-6th-Edition-Typescript/issues"
+    },
+    "homepage": "https://github.com/danielxhogan/CtCI-6th-Edition-Typescript#readme",
+    "devDependencies": {
+        "prettier": "^3.0.3"
+    }
+}
