@@ -2,7 +2,7 @@ import {
     isUnique_usingSet,
     isUnique_usingBitVec,
     isUnique_usingCharacterSort
-} from "../../solutions/ch1/isUnique";
+} from "../../solutions/ch1/01isUnique";
 
 const trueStrings = [
     "abcdefghi",
