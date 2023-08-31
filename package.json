@@ -4,7 +4,7 @@
     "description": "Solutions for Cracking the Coding Interview 6th Edition practice problems.",
     "main": "src/index.ts",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "jest"
     },
     "repository": {
         "type": "git",
@@ -17,6 +17,12 @@
     },
     "homepage": "https://github.com/danielxhogan/CtCI-6th-Edition-Typescript#readme",
     "devDependencies": {
-        "prettier": "^3.0.3"
+        "@babel/core": "^7.22.11",
+        "@babel/preset-env": "^7.22.14",
+        "@babel/preset-typescript": "^7.22.11",
+        "@types/jest": "^29.5.4",
+        "babel-jest": "^29.6.4",
+        "prettier": "^3.0.3",
+        "ts-jest": "^29.1.1"
     }
 }
