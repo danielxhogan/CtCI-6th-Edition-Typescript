@@ -30,7 +30,7 @@ const truePairs: UrlifyTestValue[] = [
 ];
 
 for (const val of truePairs) {
-    test(`checking test val: ${val} with urlify`, () => {
+    test(`checking test val: ${val.str1} with urlify`, () => {
         expect(urlify(val.str1.split(""), val.len)).toBe(val.str2);
     });
 }
