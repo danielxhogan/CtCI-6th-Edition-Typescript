@@ -17,8 +17,6 @@ export function loopDetect(
         ptr2 = ptr2.next.next;
     }
 
-    // return ptr2.data;
-
     if (foundLoop) {
         let loopSize = 0;
 
@@ -26,8 +24,6 @@ export function loopDetect(
             ptr1 = ptr1.next;
             loopSize++;
         } while (ptr1 !== ptr2);
-
-        // return loopSize;
 
         ptr1 = list.head;
 
