@@ -1,6 +1,6 @@
 import LinkedList, { Node } from "../../utils/LinkedList";
 
-export function palindrome(
+export function intersection(
     list1: LinkedList<number>,
     list2: LinkedList<number>
 ): Node<number> | null {

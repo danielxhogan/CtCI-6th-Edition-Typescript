@@ -1,4 +1,4 @@
-import { palindrome } from "../../solutions/ch2/07palindrome";
+import { intersection } from "../../solutions/ch2/07intersection";
 import LinkedList, { Node } from "../../utils/LinkedList";
 
 interface TestData {
@@ -110,6 +110,6 @@ tests.push(test3);
 
 for (const testData of tests) {
     test("checking test data with palindrome", () => {
-        expect(palindrome(testData.list1, testData.list2)).toBe(testData.out);
+        expect(intersection(testData.list1, testData.list2)).toBe(testData.out);
     });
 }
