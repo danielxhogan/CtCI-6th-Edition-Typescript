@@ -1,13 +1,13 @@
 import { sumLists } from "../../solutions/ch2/05sumLists";
 import LinkedList from "../../utils/LinkedList";
 
-interface testData {
+interface TestData {
     list1: LinkedList<number>;
     list2: LinkedList<number>;
     out: LinkedList<number>;
 }
 
-let tests: testData[] = [];
+let tests: TestData[] = [];
 
 const list11: LinkedList<number> = new LinkedList();
 list11.append(9);
@@ -25,7 +25,7 @@ out1.append(6);
 out1.append(4);
 out1.append(1);
 
-const test1: testData = {
+const test1: TestData = {
     list1: list11,
     list2: list21,
     out: out1
@@ -49,7 +49,7 @@ out2.append(9);
 out2.append(9);
 out2.append(1);
 
-const test2: testData = {
+const test2: TestData = {
     list1: list12,
     list2: list22,
     out: out2
@@ -80,7 +80,7 @@ out3.append(0);
 out3.append(4);
 out3.append(5);
 
-const test3: testData = {
+const test3: TestData = {
     list1: list13,
     list2: list23,
     out: out3
